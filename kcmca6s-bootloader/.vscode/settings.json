@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "btl_reset.h": "c",
+        "ql_bootloader.h": "c",
+        "sl_uartdrv_instances.h": "c",
+        "ql_uart.h": "c",
+        "uartdrv.h": "c",
+        "stdio.h": "c",
+        "ql_include.h": "c",
+        "ql_crc16.h": "c",
+        "stdint.h": "c",
+        "ql_upgrade.h": "c",
+        "ql_frame_build.h": "c",
+        "sl_memory_manager_region.h": "c",
+        "sl_event_handler.h": "c",
+        "ql_internal_flash.h": "c"
+    }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<device:XMLDevice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:device="http://www.silabs.com/ss/hwconfig/document/device.ecore" name="pin_tool.EFR32FG23A010F512GM40" partId="mcu.arm.efr32.fg23.efr32fg23a010f512gm40" contextId="com.silabs.sdk.stack.sisdk:2024.6.2._-1257683613">
+  <mode name="DefaultMode">
+    <property object="DefaultMode" propertyId="mode.diagramLocation" value="100, 100"/>
+    <property object="EUSART0" propertyId="ABModule.selectedRequirement" value="eusart%T%SL_IOSTREAM_EUSART_VCOM%T%sl_iostream_eusart_vcom_config.h"/>
+    <property object="EUSART0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="MODEM" propertyId="ABModule.selectedRequirement" value="modem%T%SL_RAIL_UTIL_ANT_DIV%T%sl_rail_util_ant_div_config.h"/>
+    <property object="MODEM" propertyId="ABPeripheral.included" value="true"/>
+    <property object="PORTIO" propertyId="portio.eusart0.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart0.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.eusart0.location.rx" value="5"/>
+    <property object="PORTIO" propertyId="portio.eusart0.location.tx" value="6"/>
+    <property object="PORTIO" propertyId="portio.prs.enable.asynch0" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.prs.location.asynch0" value="17"/>
+    <property object="PRS.ASYNCH0" propertyId="ABModule.selectedRequirement" value="prs%T%SL_FEM_UTIL_TX%T%sl_fem_util_config.h"/>
+    <property object="PRS.ASYNCH0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="PTI" propertyId="ABModule.selectedRequirement" value="pti%T%SL_RAIL_UTIL_PTI%T%sl_rail_util_pti_config.h"/>
+    <property object="PTI" propertyId="ABPeripheral.included" value="true"/>
+  </mode>
+  <modeTransition>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.source" value="RESET"/>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.target" value="DefaultMode"/>
+  </modeTransition>
+</device:XMLDevice>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
+  <descriptors name="kcmca6s-application">
+    <properties key="projectCommon.sdkId" value="com.silabs.sdk.stack.sisdk:2024.6.2._901395569"/>
+    <properties key="universalConfig.relativeWorkspacePath" value="..\kcmca6s-application.slcw"/>
+    <properties key="universalConfig.generationDirectory" value=""/>
+    <properties key="universalConfig.toolchainCompatibility" value="iar gcc"/>
+    <properties key="projectCommon.boardIds" value="brd2600a:0.0.0.A01"/>
+    <properties key="projectCommon.kitId" value=""/>
+    <properties key="projectCommon.partId" value="mcu.arm.efr32.fg23.efr32fg23b010f512im48"/>
+    <properties key="projectCommon.toolchainId" value="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:12.2.1.20221205"/>
+    <properties key="universalConfig.projectTypeIds" value="com.silabs.framework.project.makefile com.silabs.ss.framework.ide.project.core.cdtMbsProjectType"/>
+    <properties key="projectCommon.importModeId" value="COPY"/>
+    <properties key="universalConfig.compSelProjInstanceId" value="1730426048477"/>
+  </descriptors>
+</model:MDescriptors>
