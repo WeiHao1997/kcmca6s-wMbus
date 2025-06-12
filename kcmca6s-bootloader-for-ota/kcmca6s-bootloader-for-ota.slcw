@@ -1,0 +1,6 @@
+---
+label: "kcmca6s-bootloader-origin"
+project:
+- id: "main"
+  path: "kcmca6s-bootloader-origin.slcp"
+  output: "."
